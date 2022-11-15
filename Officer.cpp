@@ -1,3 +1,12 @@
+/**
+ * @file Officer.cpp
+ * @author Zachary Rose
+ * @date 2022-11-15
+ * @brief Officer implementation file
+ * 
+ * Officer implementation, superclass to Employee with added evilness
+ */
+
 #include "Officer.h"
 #include <iostream>
 

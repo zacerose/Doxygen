@@ -1,3 +1,12 @@
+/**
+ * @file Supervisor.cpp
+ * @author Zachary Rose
+ * @date 2022-11-15
+ * @brief Supervisor implementation file
+ * 
+ * Supervisor implementation, superclass to Employee with added supervising responsibilities
+ */
+
 #include "Supervisor.h"
 #include <iostream>
 
