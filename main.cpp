@@ -1,3 +1,11 @@
+/**
+ * @file main.cpp
+ * @author Zachary Rose
+ * @date 2022-11-15
+ * @brief driver file for Employee project
+ * 
+ * driver for testing the Employee project's inheritence based classes
+ */
 
 #include <iostream>
 #include "Employee.h"
@@ -6,6 +14,15 @@
 
 using namespace std;
 
+
+/**
+ * Tests the shared functions of the Employee based superclasses such as printing, pay calculation, and the anniversary function
+ *
+ * @param Employee & e An Employee, Officer, or Supervisor object to test the functions of
+ * @return void 
+ * @post Console has printed output of the employee, and the employee has had aniversary() called, increasing years worked by one
+ * 
+ */
 void runEmployeeTests(Employee & e);
 
 int main() {
